@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/prefer/prefer",
+    "pages/cat/cat",
+    "pages/mine/mine"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabbar/index.png",
+        "selectedIconPath": "static/images/tabbar/index_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/prefer/prefer",
+        "iconPath": "static/images/tabbar/prefer.png",
+        "selectedIconPath": "static/images/tabbar/prefer_select.png",
+        "text": "好物优选"
+      },
+      {
+        "pagePath": "pages/cat/cat",
+        "iconPath": "static/images/tabbar/cat.png",
+        "selectedIconPath": "static/images/tabbar/cat_select.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/images/tabbar/mine.png",
+        "selectedIconPath": "static/images/tabbar/mine_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

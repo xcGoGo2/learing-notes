@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "场景",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "carousel": "/components/vear-carousel/vear-carousel"
+  }
+}
